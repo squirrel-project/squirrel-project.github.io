@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body > #header .imageContainer {
+  padding: 30px 0 0 0; }
+body > #header #navigation {
+  margin-top: 30px;
+  background-color: #0C0C0C; }
+  body > #header #navigation ul {
+    font-size: 14px;
+    overflow: hidden; }
+    body > #header #navigation ul li.title {
+      font-size: 28px;
+      color: white;
+      padding: 6px 20px 0 0;
+      font-family: 'Open Sans Condensed', 'Open Sans';
+      background-color: transparent !important; }
+    body > #header #navigation ul li {
+      float: left; }
+      body > #header #navigation ul li a {
+        color: white;
+        display: inline-block;
+        padding: 14px 10px; }
+      body > #header #navigation ul li:hover {
+        background-color: #1a1a1a; }
+
+body > .content {
+  margin-top: 40px; }
+  body > .content h1 {
+    font-family: 'Open Sans Condensed';
+    font-size: 50px;
+    color: #e0e0e0;
+    background-color: white;
+    padding-right: 10px; }
+  body > .content .news {
+    margin: 30px 0 110px; }
+    body > .content .news h2 {
+      padding-bottom: 10px;
+      font-weight: 700;
+      color: #505050; }
+    body > .content .news .date {
+      border-bottom: 1px solid #c0c0c0;
+      font-size: 12px;
+      padding-bottom: 10px;
+      color: #808080; }
+    body > .content .news .text {
+      line-height: 1.8em;
+      color: #0a0a0a;
+      margin-top: 20px;
+      /*
+       *-moz-column-count:2; [> Firefox <]
+       *-webkit-column-count:2; [> Safari and Chrome <]
+       *column-count:2;
+       */ }
+      body > .content .news .text img {
+        float: left;
+        margin: 5px; }
+      body > .content .news .text a.more {
+        font-size: 13px;
+        position: relative;
+        color: #0a0a0a; }
+        body > .content .news .text a.more:hover {
+          text-decoration: underline; }
+
+body {
+  font-family: 'Open Sans';
+  font-weight: 400; }
+
+.centered {
+  width: 960px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+  a:active {
+    position: relative;
+    bottom: -1px; }
