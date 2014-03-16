@@ -1,0 +1,14 @@
+
+application.js
+----------------
+jquery-1.11.0.min.js
+jquery-private.js
+/home/simon/dev/squirrel/vendor/hbs/hbs/handlebars.js
+/home/simon/dev/squirrel/vendor/hbs/hbs/underscore.js
+/home/simon/dev/squirrel/vendor/hbs/hbs/i18nprecompile.js
+/home/simon/dev/squirrel/vendor/hbs/hbs/json2.js
+/home/simon/dev/squirrel/vendor/hbs/hbs.js
+hbs!templates/header
+hbs!templates/footer
+markup.js
+application.js

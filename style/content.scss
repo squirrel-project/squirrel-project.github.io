@@ -1,5 +1,14 @@
 body > .content{
     margin-top: 40px;
+    min-height: 800px;
+    line-height: 1.7em;
+    &, a{
+        $color: 50;
+        color: rgb( $color, $color, $color );
+    }
+    a:hover{
+        text-decoration: underline;
+    }
 
     h1{
         font-family: 'Open Sans Condensed';
@@ -7,9 +16,10 @@ body > .content{
         color: #e0e0e0;
         background-color: white;
         padding-right: 10px;
+        margin-bottom: 30px;
     }
     .news{
-        margin: 30px 0 110px ;
+        margin: 0 0 110px ;
         h2{
             padding-bottom: 10px;
             font-weight: 700;
@@ -23,7 +33,6 @@ body > .content{
         }
         .text{
             line-height: 1.8em;
-            color: #0a0a0a;
             margin-top: 20px;
 
             /*

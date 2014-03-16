@@ -22,8 +22,10 @@ body > #header{
                     display: inline-block;
                     padding: 14px 10px;
                 }
-                &:hover{
-                    background-color: #1a1a1a;
+                &.active, &:hover{
+                    $color:30;
+                    /*background-color: rgb( $color, $color, $color );*/
+                    background-color: green;
                 }
             }
         }

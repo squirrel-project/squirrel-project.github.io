@@ -1,0 +1,4 @@
+RewriteEngine off
+#RewriteEngine on
+RewriteRule build/style.css style/style.css [L]
+RewriteRule build/(.*) js/$1
