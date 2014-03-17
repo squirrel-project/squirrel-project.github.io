@@ -1,1 +1,0 @@
-define(["jquery","hbs!templates/header","hbs!templates/footer"],function(e,t,n){var r=function(){var i=e("body "),s=i.attr("class"),o=e(t()),u=e(n());s=s?s.split(" "):[];for(var a=0;a<s.length;a++)s[a]&&o.find("li."+s[a]).addClass("active");i.prepend(o),i.append(u)};return{render:function(){e(document).ready(r)}}});

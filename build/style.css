@@ -55,8 +55,16 @@ body > #header #navigation {
         display: inline-block;
         padding: 14px 10px; }
       body > #header #navigation ul li.active, body > #header #navigation ul li:hover {
-        
         background-color: green; }
+body.index #navigation li.index,
+body.objectives #navigation li.objectives,
+body.consortium #navigation li.consortium,
+body.work-packages #navigation li.work-packages,
+body.media #navigation li.media,
+body.contacts #navigation li.contacts,
+body.public-deliverables #navigation li.public-deliverables,
+body.publications #navigation li.publications {
+  background-color: green; }
 body > .content {
   margin-top: 40px;
   min-height: 800px;
