@@ -54,8 +54,8 @@ body > #header #navigation {
         color: white;
         display: inline-block;
         padding: 14px 10px; }
-      body > #header #navigation ul li.active, body > #header #navigation ul li:hover {
-        background-color: green; }
+body > #header #navigation li.active,
+body > #header #navigation li:hover,
 body.index #navigation li.index,
 body.objectives #navigation li.objectives,
 body.consortium #navigation li.consortium,
@@ -64,7 +64,18 @@ body.media #navigation li.media,
 body.contacts #navigation li.contacts,
 body.public-deliverables #navigation li.public-deliverables,
 body.publications #navigation li.publications {
-  background-color: green; }
+  background-color: white; }
+  body > #header #navigation li.active a,
+  body > #header #navigation li:hover a,
+  body.index #navigation li.index a,
+  body.objectives #navigation li.objectives a,
+  body.consortium #navigation li.consortium a,
+  body.work-packages #navigation li.work-packages a,
+  body.media #navigation li.media a,
+  body.contacts #navigation li.contacts a,
+  body.public-deliverables #navigation li.public-deliverables a,
+  body.publications #navigation li.publications a {
+    color: black !important; }
 body > .content {
   margin-top: 40px;
   min-height: 800px;

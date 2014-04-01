@@ -11,7 +11,7 @@
 <body class="BODYCLASSNAME">
     <div id="header">
         <div class="imageContainer centered ">
-            <img src="images/rosindustrial.jpg" />
+            <img src="images/logo.png" />
         </div>
         <div id="navigation">
             <ul class="centered">

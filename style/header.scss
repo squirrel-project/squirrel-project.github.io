@@ -1,4 +1,4 @@
-$header-active-color: green;
+$header-active-color: white;
 body > #header{
     .imageContainer{
         padding: 30px 0 0 0;
@@ -23,14 +23,14 @@ body > #header{
                     display: inline-block;
                     padding: 14px 10px;
                 }
-                &.active, &:hover{
-                    background-color: $header-active-color;
-                }
             }
         }
     }
 }
 
+
+body > #header #navigation li.active,
+body > #header #navigation li:hover,
 body.index #navigation li.index,
 body.objectives #navigation li.objectives,
 body.consortium #navigation li.consortium,
@@ -40,4 +40,5 @@ body.contacts #navigation li.contacts,
 body.public-deliverables #navigation li.public-deliverables,
 body.publications #navigation li.publications{
     background-color: $header-active-color;
+    a{ color: black !important; }
 }

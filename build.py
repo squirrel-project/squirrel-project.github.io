@@ -54,7 +54,7 @@ def copyImages():
         p.wait()
 
 if __name__ == '__main__':
-    if len( sys.argv ) >= 2 and sys.argv[ 1 ] == 'all':
+    if len( sys.argv ) <= 2 or sys.argv[ 1 ] != 'tpl':
         buildJs()
         buildCss()
     buildPages()
