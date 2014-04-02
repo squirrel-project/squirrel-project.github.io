@@ -15,7 +15,6 @@
         </div>
         <div id="navigation">
             <ul class="centered">
-                <li class="title">SQUIRREL</li>
                 <li class="index"><a href="index.html">Home</a></li>
                 <li class="objectives"><a href="objectives.html">Objectives</a></li>
                 <li class="consortium"><a href="consortium.html">Consortium</a></li>
