@@ -18,7 +18,7 @@
 
         <div class="funding">
             <div class="title">FUNDING</div>
-            <div class="text">This project/study is partially funded by the European Commission under the 7th Framework Programme.</div>
+            <div class="text">This project/study is funded by the European Commission under the 7th Framework Programme.</div>
         </div>
     </div>
 </div>
