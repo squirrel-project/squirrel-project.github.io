@@ -1,3 +1,0 @@
-[submodule "vendor/hbs"]
-	path = vendor/hbs
-	url = https://github.com/SlexAxton/require-handlebars-plugin

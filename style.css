@@ -53,7 +53,7 @@ body > #header #navigation {
       body > #header #navigation ul li a {
         color: white;
         display: inline-block;
-        padding: 14px 10px; }
+        padding: 14px 22px; }
 body > #header #navigation li.active,
 body > #header #navigation li:hover,
 body.index #navigation li.index,
@@ -152,7 +152,7 @@ body.consortium div.participant {
   body.consortium div.participant span.organisation, body.consortium div.participant span.main-tasks, body.consortium div.participant span.experience {
     font-weight: bold; }
   body.consortium div.participant div.organisation {
-    border-top: 1px solid gainsboro;
+    border-top: 1px solid #dcdcdc;
     padding-top: 20px; }
   body.consortium div.participant div.organisation, body.consortium div.participant div.main-tasks, body.consortium div.participant div.experience {
     margin-bottom: 20px; }
