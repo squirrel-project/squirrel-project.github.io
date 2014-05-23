@@ -177,21 +177,33 @@ body.contacts p {
   margin-bottom: 30px;
   line-height: 1.4em; }
 
-body.consortium div.participant, body.index div.participant {
-  margin-bottom: 100px; }
-  body.consortium div.participant h2, body.index div.participant h2 {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 50px 0 14px; }
-  body.consortium div.participant span.organisation, body.consortium div.participant span.main-tasks, body.consortium div.participant span.experience, body.index div.participant span.organisation, body.index div.participant span.main-tasks, body.index div.participant span.experience {
-    font-weight: bold; }
-  body.consortium div.participant div.organisation, body.index div.participant div.organisation {
-    border-top: 1px solid #dcdcdc;
-    padding-top: 20px; }
-  body.consortium div.participant div.organisation, body.consortium div.participant div.main-tasks, body.consortium div.participant div.experience, body.index div.participant div.organisation, body.index div.participant div.main-tasks, body.index div.participant div.experience {
-    margin-bottom: 20px; }
-  body.consortium div.participant p, body.index div.participant p {
-    margin-top: 20px; }
+body.consortium table td.image, body.index table td.image {
+  text-align: center; }
+body.consortium table td, body.index table td {
+  padding: 20px 40px;
+  vertical-align: top; }
+body.consortium table td.name, body.consortium table td.ip, body.index table td.name, body.index table td.ip {
+  padding-top: 40px; }
+body.consortium table td.name, body.index table td.name {
+  cursor: pointer; }
+  body.consortium table td.name:hover a, body.index table td.name:hover a {
+    text-decoration: underline; }
+body.consortium table tr.tow td.name, body.consortium table tr.tow td.ip, body.index table tr.tow td.name, body.index table tr.tow td.ip {
+  padding-top: 39px; }
+body.consortium table tr.university-twente td.name, body.consortium table tr.university-twente td.ip, body.index table tr.university-twente td.name, body.index table tr.university-twente td.ip {
+  padding-top: 9px; }
+body.consortium table tr.festo-didactic td.name, body.consortium table tr.festo-didactic td.ip, body.index table tr.festo-didactic td.name, body.index table tr.festo-didactic td.ip {
+  padding-top: 7px; }
+body.consortium table tr.fraunhofer-ipa td.name, body.consortium table tr.fraunhofer-ipa td.ip, body.index table tr.fraunhofer-ipa td.name, body.index table tr.fraunhofer-ipa td.ip {
+  padding-top: 13px; }
+body.consortium table tr.idmind td.name, body.consortium table tr.idmind td.ip, body.index table tr.idmind td.name, body.index table tr.idmind td.ip {
+  padding-top: 29px; }
+body.consortium table a span.link, body.index table a span.link {
+  color: #999;
+  text-decoration: none !important; }
+body.consortium table a.link, body.index table a.link {
+  color: #999;
+  text-decoration: none !important; }
 
 body.work-packages table {
   margin-top: 50px; }
