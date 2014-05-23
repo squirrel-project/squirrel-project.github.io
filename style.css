@@ -46,7 +46,8 @@ table {
   border-spacing: 0; }
 
 body > #header .imageContainer {
-  padding: 30px 0 0 0; }
+  padding: 30px 0 0 0;
+  text-align: center; }
 body > #header #navigation {
   margin-top: 30px;
   background-color: #0C0C0C; }
@@ -134,28 +135,35 @@ body > .content {
           text-decoration: underline; }
 
 #footer {
+  margin-top: 150px;
   background-color: #141414;
-  padding-top: 10px; }
+  padding: 40px 0 20px;
+  overflow: hidden; }
   #footer .partners {
+    float: left;
+    border-right: 1px solid #555;
     overflow: hidden; }
-    #footer .partners .partner {
-      float: left;
-      width: 250px; }
-      #footer .partners .partner .title {
-        height: 52px; }
-        #footer .partners .partner .title a {
-          color: white;
-          font-size: 13px; }
-      #footer .partners .partner.sevenFp {
-        width: 220px; }
-  #footer .funding {
-    border-top: 1px solid #828282;
-    color: white;
+  #footer .partner {
+    float: left;
+    width: 270px;
     font-size: 14px;
-    padding: 20px 0 50px;
-    margin-top: 60px; }
-    #footer .funding .title {
-      margin-bottom: 10px; }
+    line-height: 1.6em; }
+    #footer .partner a {
+      color: white; }
+    #footer .partner a.imageContainer {
+      float: left; }
+    #footer .partner a.text {
+      display: block;
+      margin-left: 75px; }
+    #footer .partner.seventhFramework img {
+      width: 60px;
+      height: 49px; }
+  #footer .funding {
+    color: white;
+    padding: 0 0 50px 30px;
+    font-size: 14px;
+    float: left;
+    line-height: 1.8em; }
 
 body.objectives p {
   margin-bottom: 20px; }
@@ -164,20 +172,20 @@ body.contacts p {
   margin-bottom: 30px;
   line-height: 1.4em; }
 
-body.consortium div.participant {
+body.consortium div.participant, body.index div.participant {
   margin-bottom: 100px; }
-  body.consortium div.participant h2 {
+  body.consortium div.participant h2, body.index div.participant h2 {
     font-weight: bold;
     font-size: 20px;
     margin: 50px 0 14px; }
-  body.consortium div.participant span.organisation, body.consortium div.participant span.main-tasks, body.consortium div.participant span.experience {
+  body.consortium div.participant span.organisation, body.consortium div.participant span.main-tasks, body.consortium div.participant span.experience, body.index div.participant span.organisation, body.index div.participant span.main-tasks, body.index div.participant span.experience {
     font-weight: bold; }
-  body.consortium div.participant div.organisation {
+  body.consortium div.participant div.organisation, body.index div.participant div.organisation {
     border-top: 1px solid #dcdcdc;
     padding-top: 20px; }
-  body.consortium div.participant div.organisation, body.consortium div.participant div.main-tasks, body.consortium div.participant div.experience {
+  body.consortium div.participant div.organisation, body.consortium div.participant div.main-tasks, body.consortium div.participant div.experience, body.index div.participant div.organisation, body.index div.participant div.main-tasks, body.index div.participant div.experience {
     margin-bottom: 20px; }
-  body.consortium div.participant p {
+  body.consortium div.participant p, body.index div.participant p {
     margin-top: 20px; }
 
 body {
