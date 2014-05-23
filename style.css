@@ -93,6 +93,7 @@ body.publications #navigation li.publications {
     color: black !important; }
 
 body > .content {
+  min-height: 500px;
   margin-top: 40px;
   line-height: 1.7em; }
   body > .content, body > .content a {
