@@ -206,6 +206,7 @@ body.consortium table a.link, body.index table a.link {
   text-decoration: none !important; }
 
 body.work-packages table {
+  width: 100%;
   margin-top: 50px; }
   body.work-packages table th, body.work-packages table td {
     padding: 10px;
