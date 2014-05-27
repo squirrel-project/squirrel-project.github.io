@@ -1,1 +1,0 @@
-require([],function(){}),define("application",function(){});
