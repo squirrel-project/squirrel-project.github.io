@@ -1,1 +1,3 @@
-define(["jquery"],function(e){return e.noConflict(!0)});
+define([ 'jquery' ], function( jq ){
+    return jq.noConflict( true );
+});
