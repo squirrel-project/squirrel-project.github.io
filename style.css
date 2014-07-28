@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,30 +18,22 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
-
 body {
   line-height: 1; }
-
 ol, ul {
   list-style: none; }
-
 blockquote, q {
   quotes: none; }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
-
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
 body > #header .imageContainer {
   padding: 30px 0 0 0;
   text-align: center; }
@@ -66,7 +55,6 @@ body > #header #navigation {
         color: white;
         display: inline-block;
         padding: 14px 22px; }
-
 body > #header #navigation li.active,
 body > #header #navigation li:hover,
 body.home #navigation li.home,
@@ -91,7 +79,6 @@ body.publications #navigation li.publications {
   body.public-deliverables #navigation li.public-deliverables a,
   body.publications #navigation li.publications a {
     color: black !important; }
-
 body > .content {
   min-height: 500px;
   margin-top: 40px;
@@ -107,35 +94,35 @@ body > .content {
     background-color: white;
     padding-right: 10px;
     margin-bottom: 30px; }
-  body > .content .news {
+body > .content .news {
+  margin: 0 0 110px; }
+  body > .content .news .item {
     margin: 0 0 110px; }
-    body > .content .news h2 {
-      padding-bottom: 10px;
+    body > .content .news .item h2 {
       font-weight: 700;
-      color: #505050; }
-    body > .content .news .date {
-      border-bottom: 1px solid #c0c0c0;
+      color: #505050;
+      margin-bottom: 0;
+      padding-bottom: 0px; }
+    body > .content .news .item .date {
+      line-height: 1.8em;
+      border-bottom: 1px solid #d0d0d0;
       font-size: 12px;
       padding-bottom: 10px;
       color: #808080; }
-    body > .content .news .text {
+    body > .content .news .item .text {
       line-height: 1.8em;
       margin-top: 20px;
-      /*
-       *-moz-column-count:2; [> Firefox <]
-       *-webkit-column-count:2; [> Safari and Chrome <]
-       *column-count:2;
-       */ }
-      body > .content .news .text img {
-        float: left;
-        margin: 5px; }
-      body > .content .news .text a.more {
+       }
+      body > .content .news .item .text img {
+        border: 1px solid #ccc;
+        padding: 3px;
+        margin-top: 20px; }
+      body > .content .news .item .text a.more {
         font-size: 13px;
         position: relative;
         color: #0a0a0a; }
-        body > .content .news .text a.more:hover {
+        body > .content .news .item .text a.more:hover {
           text-decoration: underline; }
-
 #footer {
   margin-top: 150px;
   background-color: #141414;
@@ -169,14 +156,11 @@ body > .content {
     width: 580px; }
     #footer .funding span.title {
       padding-right: 17px; }
-
 body.objectives p {
   margin-bottom: 20px; }
-
 body.contacts p {
   margin-bottom: 30px;
   line-height: 1.4em; }
-
 body.consortium table td.image, body.index table td.image {
   text-align: center; }
 body.consortium table td, body.index table td {
@@ -204,7 +188,6 @@ body.consortium table a span.link, body.index table a span.link {
 body.consortium table a.link, body.index table a.link {
   color: #999;
   text-decoration: none !important; }
-
 body.work-packages table {
   width: 100%;
   margin-top: 50px; }
@@ -219,15 +202,12 @@ body.work-packages table {
     font-weight: 600;
     color: #333;
     line-height: 1.2em; }
-
 body {
   font-family: 'Open Sans';
   font-weight: 400; }
-
 .centered {
   width: 960px;
   margin: 0 auto; }
-
 a {
   text-decoration: none; }
   a:active {
