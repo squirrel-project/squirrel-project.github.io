@@ -204,6 +204,9 @@ body.consortium table tr.fraunhofer-ipa td.name, body.consortium table tr.fraunh
   padding-top: 13px; }
 body.consortium table tr.idmind td.name, body.consortium table tr.idmind td.ip, body.index table tr.idmind td.name, body.index table tr.idmind td.ip {
   padding-top: 29px; }
+body.consortium table tr.uni-bonn td.name, body.consortium table tr.uni-bonn td.ip, body.index table tr.uni-bonn td.name, body.index table tr.uni-bonn td.ip {
+  padding-top: 35px;
+  white-space: nowrap; }
 body.consortium table a span.link, body.index table a span.link {
   color: #999;
   text-decoration: none !important; }
