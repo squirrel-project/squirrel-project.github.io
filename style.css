@@ -107,6 +107,22 @@ body > .content {
     background-color: white;
     padding-right: 10px;
     margin-bottom: 30px; }
+  body > .content h2 {
+    font-family: 'Open Sans Condensed';
+    font-size: 25px;
+    color: #a0a0a0;
+    background-color: white;
+    padding-right: 20px;
+	margin-top: 20px;
+    margin-bottom: 20px; }
+  body > .content h3 {
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    color: #a0a0a0;
+    background-color: white;
+    padding-right: 20px;
+	margin-top: 10px;
+    margin-bottom: 10px; }
 
 body > .content .news {
   margin: 0 0 110px; }
